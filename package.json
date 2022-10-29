@@ -1,0 +1,23 @@
+{
+  "name": "jest-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinamohamed85/jest-examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinamohamed85/jest-examples/issues"
+  },
+  "homepage": "https://github.com/dinamohamed85/jest-examples#readme",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  }
+}
