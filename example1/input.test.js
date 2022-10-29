@@ -1,17 +1,17 @@
 const theFilter = require('./input');
 
-test('Validate the input field', () => {
+test('Check If no name is given it will show UnKnown', () => {
     expect(theFilter()).toBe("UnKnown");
 })
 
-test('check for spaces (start or end)', () => {
+test('Check name starts or ends with space the name will be trimmed', () => {
     expect(theFilter(" dina ")).toBe("dina");
 })
 
-test('check if lentgh > 10', () => {
+test('Check if lentgh > 10 name will be showd only first 10 charachters', () => {
     expect(theFilter("dina_mohamed_ahmed")).toBe("dina_moham");
 })
 
-test('check if starts with _', () => {
+test('Check if name starts with nderscore name will not show underscore', () => {
     expect(theFilter("_dina")).toBe("dina");
 })
