@@ -1,5 +1,6 @@
 function theSum(...numbers) {
-    return numbers.reduce((prv_Val, curr_Val) => prv_Val + curr_Val, 0);
+    return numbers.reduce((prv_val, curr_val) =>
+        prv_val + curr_val, 0);
 }
 
 module.exports = theSum
