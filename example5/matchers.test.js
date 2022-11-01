@@ -78,7 +78,7 @@ test('check if object has this property and specific value', () => {
     expect(obj).toHaveProperty("age", 37);
 });
 
-/* Create Your Own Matchers */
+/* Create Your Own Matchers 1 */
 expect.extend({
     toBeLargerThan(received, target) {
         const res = received > target;
@@ -96,4 +96,9 @@ expect.extend({
             };
         }
     },
+});
+
+/* test using your own matcher 1 */
+test("check if the received number is greater than the target number", () => {
+    expect(10).toBeLargerThan(8);
 });
