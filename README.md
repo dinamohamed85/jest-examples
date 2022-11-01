@@ -14,5 +14,6 @@
 - expect.anything() => expect anything else 'undefiend' or 'null'
 - expect.any(Constructor) => expect the input is any Constructor like String or Number
 - expect.arrayContaining(array) => expect the received array is contains the target array
-- Code Coverage options \ comand line : npm test -- --coverage
-- Code Coverage options \ package.json : "jest": { "collectCoverage": true, "coverageReporters": ["html"]  }
+## What parts of code are tested, which functions and lines get tested:-
+ - Code Coverage options \ comand line : npm test -- --coverage
+ - Code Coverage options \ package.json : "jest": { "collectCoverage": true, "coverageReporters": ["html"]  }
