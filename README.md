@@ -16,7 +16,13 @@
 - expect.arrayContaining(array) => expect the received array is contains the target array
 ### What parts of code are tested, which functions and lines get tested:-
  - Code Coverage options \ command line : npm test -- --coverage
- - Code Coverage options \ package.json : "jest": { "collectCoverage": true, "coverageReporters": ["html"]  }
+ - Code Coverage options \ package.json : "jest": {     <br />
+     "collectCoverage":     true,                       <br />
+     "coverageReporters":   ["html"]                    <br />
+     "coverageDirectory":   "reports"                   <br />
+     "collectCoverageFrom": ["**/*.{js,jsx,ts}"]        <br />
+     "coveragePathIgnorePatterns": ["/node_modules/", "/build/"]     <br />
+     } 
 ### Mock Functions (spies) : jest has built-in function to test behavior function
 - Mock Functions : toHaveBeenCalled , toHaveBeenCalledTimes , toHaveBeenCalledWith
 - web site -> https://sinonjs.org/ : Standalone test spies, stubs and mocks for JavaScript.

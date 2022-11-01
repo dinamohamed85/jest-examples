@@ -24,6 +24,12 @@
     "collectCoverage": false,
     "coverageReporters": [
       "html"
+    ],
+    "coverageDirectory": "reports",
+    "collectCoverageFrom": ["**/*.{js,jsx,ts}"],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/build/"
     ]
   }
 }
