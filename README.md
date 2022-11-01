@@ -10,3 +10,4 @@
 - Matchers methods : toHavelength , toContain , not.toContain , not.toBe , isNaN , toBeFalsy , toBeTrusy
 - Matchers methods : toBeGreaterThan , toBeGreaterThanOrEqual , toBeLessThan , toBeLessThanOrEqual 
 - Matchers methods : toBeUndefined , toMatch , toHaveProperty
+- Create Your Own Matchers using expect.extend(recived,target) and built in property: pass , message , then call your new matcher inside test method.

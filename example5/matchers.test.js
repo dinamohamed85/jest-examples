@@ -75,5 +75,25 @@ test('check if object has this property and specific value', () => {
         name: "dina",
         age: 37
     };
-    expect(obj).toHaveProperty("age",37);
+    expect(obj).toHaveProperty("age", 37);
+});
+
+/* Create Your Own Matchers */
+expect.extend({
+    toBeLargerThan(received, target) {
+        const res = received > target;
+        if (res) {
+            return {
+                message: () => `Expected ${received} To Be larger than ${target}`,
+                pass: true,
+            };
+        }
+
+        else {
+            return {
+                message: () => `Error: Expected ${received} To Be larger than ${target}`,
+                pass: false,
+            };
+        }
+    },
 });
