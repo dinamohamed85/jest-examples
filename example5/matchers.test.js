@@ -125,5 +125,5 @@ expect.extend({
 
 /* test using your own matcher 2 */
 test("check if the received number is greater than the target number", () => {
-    expect(10).toBeBetween(9,15);
+    expect(10).toBeBetween(9, 15);
 });
