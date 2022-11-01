@@ -15,5 +15,9 @@
 - expect.any(Constructor) => expect the input is any Constructor like String or Number
 - expect.arrayContaining(array) => expect the received array is contains the target array
 ### What parts of code are tested, which functions and lines get tested:-
- - Code Coverage options \ comand line : npm test -- --coverage
+ - Code Coverage options \ command line : npm test -- --coverage
  - Code Coverage options \ package.json : "jest": { "collectCoverage": true, "coverageReporters": ["html"]  }
+### Mock Functions (spies) : jest has built-in function to test behavior function
+- Mock Functions : toHaveBeenCalled , toHaveBeenCalledTimes , toHaveBeenCalledWith
+- web site -> https://sinonjs.org/ : Standalone test spies, stubs and mocks for JavaScript.
+Works with any unit testing framework.
