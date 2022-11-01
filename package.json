@@ -19,5 +19,11 @@
   "homepage": "https://github.com/dinamohamed85/jest-examples#readme",
   "devDependencies": {
     "jest": "^29.2.2"
+  },
+  "jest": {
+    "collectCoverage": false,
+    "coverageReporters": [
+      "html"
+    ]
   }
 }
