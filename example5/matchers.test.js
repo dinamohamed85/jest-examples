@@ -78,7 +78,7 @@ test('check if object has this property and specific value', () => {
     expect(obj).toHaveProperty("age", 37);
 });
 
-/* Create Your Own Matchers 1 */
+/* Create Your Own Matcher 1 */
 expect.extend({
     toBeLargerThan(received, target) {
         const res = received > target;
@@ -101,4 +101,29 @@ expect.extend({
 /* test using your own matcher 1 */
 test("check if the received number is greater than the target number", () => {
     expect(10).toBeLargerThan(8);
+});
+
+/* Create Your Own Matcher 2 */
+expect.extend({
+    toBeBetween(received, start, end) {
+        const res = received > start && received < end;
+        if (res) {
+            return {
+                message: () => `Expected ${received} To Be between ${start} and ${end}`,
+                pass: true,
+            };
+        }
+
+        else {
+            return {
+                message: () => `Error: Expected ${received} To Be between ${start} and ${end}`,
+                pass: false,
+            };
+        }
+    },
+});
+
+/* test using your own matcher 2 */
+test("check if the received number is greater than the target number", () => {
+    expect(10).toBeBetween(9,15);
 });
