@@ -1,6 +1,6 @@
 const theSum = require('../theSum');
 
-test('return 0 if no numbers', () => {
+test('return 0 if no numbers passed', () => {
     expect(theSum()).toBe(0);
 })
 
