@@ -8,7 +8,7 @@
 beforeAll(()=>{
     //Prepare some tasks before testing
     //Connect to database
-    //Empty testing table
+    //Clear testing table
     //Add dummy data for testing
 });
 
