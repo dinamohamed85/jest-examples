@@ -11,3 +11,6 @@
 - Matchers methods : toBeGreaterThan , toBeGreaterThanOrEqual , toBeLessThan , toBeLessThanOrEqual 
 - Matchers methods : toBeUndefined , toMatch , toHaveProperty
 - Create Your Own Matchers using expect.extend(recived,target) and built in property: pass , message , then call your new matcher inside the test method via expect method.
+- expect.anything() => expect anything else 'undefiend' or 'null'
+- expect.any(Constructor) => expect the input is any Constructor like String or Number
+- expect.arrayContaining(array) => expect the received array is contains the target array
