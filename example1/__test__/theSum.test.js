@@ -4,7 +4,7 @@ test('return 0 if no numbers', () => {
     expect(theSum()).toBe(0);
 })
 
-test('return the number', () => {
+test('return the number if you passed one number', () => {
     expect(theSum(1)).toBe(1);
 })
 test('adds two numbers', () => {
