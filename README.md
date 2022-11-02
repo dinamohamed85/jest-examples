@@ -2,9 +2,9 @@
 
 - test or it method 
 - expect method
-- describe method 
+- describe method : block of tests
 - nested describe method 
-- only and skip method 
+- only and skip method : Focusing tests , Skipping tests
 - beforeAll and beforeEach
 - afterAll and afterEach
 - Matchers methods : toHavelength , toContain , not.toContain , not.toBe , isNaN , toBeFalsy , toBeTrusy
@@ -27,3 +27,6 @@
 - Mock Functions : toHaveBeenCalled , toHaveBeenCalledTimes , toHaveBeenCalledWith
 - web site -> https://sinonjs.org/ : Standalone test spies, stubs and mocks for JavaScript.
 Works with any unit testing framework.
+- jest Documentation : https://jestjs.io/
+- jest Cheat Sheet :  https://devhints.io/jest
+- jest github : https://github.com/sapegin/jest-cheat-sheet
