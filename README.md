@@ -1,7 +1,7 @@
 # jest-examples
 
 - test or it method 
-- expect method
+- expect method :- use .toBe() -> value type like string or number , .toEqual() -> reference type like object or array
 - describe method : block of tests
 - nested describe method 
 - only and skip method : Focusing tests , Skipping tests
