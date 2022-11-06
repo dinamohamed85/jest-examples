@@ -2,7 +2,7 @@
 
 - test or it method 
 - expect method :- use .toBe() -> value type like string or number , .toEqual() -> reference type like object or array
-- describe method : block of tests
+- describe method : block of tests (group some of tests into one block)
 - nested describe method 
 - only and skip method : Focusing tests , Skipping tests
 - beforeAll and beforeEach
@@ -25,8 +25,10 @@
      } 
 ### Mock Functions (spies) : jest has built-in function to test behavior function
 - Mock Functions : toHaveBeenCalled , toHaveBeenCalledTimes , toHaveBeenCalledWith
+
+## Useful links
 - web site -> https://sinonjs.org/ : Standalone test spies, stubs and mocks for JavaScript.
 Works with any unit testing framework.
-- jest Documentation : https://jestjs.io/
+- jest Documentation and commands: https://jestjs.io/
 - jest Cheat Sheet :  https://devhints.io/jest
 - jest github : https://github.com/sapegin/jest-cheat-sheet
